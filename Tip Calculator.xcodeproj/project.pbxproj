@@ -15,6 +15,7 @@
 		8479C15622C2C64800FAFEFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479C15522C2C64800FAFEFD /* main.m */; };
 		8479C16022C2C64800FAFEFD /* Tip_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479C15F22C2C64800FAFEFD /* Tip_CalculatorTests.m */; };
 		8479C16B22C2C64800FAFEFD /* Tip_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479C16A22C2C64800FAFEFD /* Tip_CalculatorUITests.m */; };
+		84E95A0622C2F96600D22F34 /* SettingsViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E95A0522C2F96600D22F34 /* SettingsViewControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8479C16622C2C64800FAFEFD /* Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8479C16A22C2C64800FAFEFD /* Tip_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_CalculatorUITests.m; sourceTree = "<group>"; };
 		8479C16C22C2C64800FAFEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E95A0422C2F96600D22F34 /* SettingsViewControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewControl.h; sourceTree = "<group>"; };
+		84E95A0522C2F96600D22F34 /* SettingsViewControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				8479C14922C2C64700FAFEFD /* ViewController.h */,
 				8479C14A22C2C64700FAFEFD /* ViewController.m */,
 				8479C14C22C2C64700FAFEFD /* Main.storyboard */,
+				84E95A0422C2F96600D22F34 /* SettingsViewControl.h */,
+				84E95A0522C2F96600D22F34 /* SettingsViewControl.m */,
 				8479C14F22C2C64800FAFEFD /* Assets.xcassets */,
 				8479C15122C2C64800FAFEFD /* LaunchScreen.storyboard */,
 				8479C15422C2C64800FAFEFD /* Info.plist */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8479C14B22C2C64700FAFEFD /* ViewController.m in Sources */,
+				84E95A0622C2F96600D22F34 /* SettingsViewControl.m in Sources */,
 				8479C15622C2C64800FAFEFD /* main.m in Sources */,
 				8479C14822C2C64700FAFEFD /* AppDelegate.m in Sources */,
 			);

@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tips-->
+        <!--Tip Calculator-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -90,7 +90,13 @@
                             <outletCollection property="gestureRecognizers" destination="pJm-lY-v1S" appends="YES" id="arf-52-ZhB"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tips" id="1pk-dc-6bP"/>
+                    <navigationItem key="navigationItem" title="Tip Calculator" id="1pk-dc-6bP">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="At3-vM-lR7">
+                            <connections>
+                                <segue destination="6i7-o2-Uc0" kind="push" id="3Ry-q4-MUp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="billLabel" destination="P7f-Fv-9kF" id="Itz-MX-dzf"/>
                         <outlet property="tipControl" destination="q22-au-vX4" id="6la-Vs-6Nx"/>
@@ -106,6 +112,22 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1076" y="129.98500749625188"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ikm-LG-ztr">
+            <objects>
+                <viewController id="6i7-o2-Uc0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9CY-2w-9Go" customClass="SCNView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bPC-dY-xVp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3DD-hI-sf2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lcw-io-T4C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1866" y="130"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qa9-mV-PxS">
